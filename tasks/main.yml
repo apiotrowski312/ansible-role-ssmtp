@@ -1,0 +1,13 @@
+---
+# tasks file for mail
+
+- name: Install SSMTP
+  apt:
+    name: ssmtp
+    state: present
+    update_cache: yes
+
+- name: Add custom config
+  template:
+    src: ssmtp.conf.j2
+    dest: /etc/ssmtp/ssmtp.conf
