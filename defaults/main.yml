@@ -1,9 +1,9 @@
 ---
-mail_AuthUser: none
-mail_AuthPass: none
-mail_hostname: root
-mail_root: postmaster
-mail_mailhub: mail
-mail_FromLineOverride: no
-mail_UseSTARTTLS: no
-mail_UseTLS: no
+mail_AuthUser: "none"
+mail_AuthPass: "none"
+mail_hostname: "root"
+mail_root: "postmaster"
+mail_mailhub: "mail"
+mail_FromLineOverride: "no"
+mail_UseSTARTTLS: "no"
+mail_UseTLS: "no"
