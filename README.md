@@ -1,6 +1,8 @@
 ssmtp
 =========
 
+[![Build Status](https://travis-ci.com/apiotrowski312/ssmtp.svg?branch=master)](https://travis-ci.com/apiotrowski312/ssmtp)
+
 Simple role to install and config ssmtp package.
 
 

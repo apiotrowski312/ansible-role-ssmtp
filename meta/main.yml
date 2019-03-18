@@ -1,4 +1,6 @@
+---
 galaxy_info:
+  role_name: ssmtp
   author: apiotrowski312
   description: Install and configure ssmtp mail
 
@@ -12,15 +14,20 @@ galaxy_info:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
   platforms:
-  - name: Ubuntu
-    versions:
-    - Xenial
-    - Bionic
+    - name: Ubuntu
+      versions:
+        - Xenial
+        - Bionic
+        - Trusty
+    - name: Debian
+      versions:
+        - Jessie
+        - Stretch
 
   galaxy_tags:
-    - mail
-    - ssmtp
-    - sendmail
+    - logwatch
+    - logs
     - linux
+    - security
 
 dependencies: []
