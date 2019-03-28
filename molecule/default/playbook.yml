@@ -2,4 +2,4 @@
 - name: Converge
   hosts: all
   roles:
-    - role: ssmtp
+    - role: apiotrowski312.ssmtp
